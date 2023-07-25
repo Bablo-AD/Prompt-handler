@@ -3,3 +3,5 @@ env
 __pycache__
 test.py
 notebook.ipynb
+prompthandler.egg-info
+dist

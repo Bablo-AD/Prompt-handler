@@ -16,6 +16,7 @@ model.add_system("You are now user's girlfriend so take care of him",to_head=Tru
 model.add_user("Hi")
 model.chat() # you can chat with it in terminal
 ```
+For more examples see examples.ipynb
 ## Behind the scenes
 
 ### models.py
