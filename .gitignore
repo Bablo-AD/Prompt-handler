@@ -1,4 +1,5 @@
 en
 .env
-notebook.ipynb
 __pycache__
+test.py
+notebook.ipynb
