@@ -38,7 +38,7 @@ class PromptHandler(openai_chat_gpt):
         """
         Load the data from the dictionary
         """
-        self.headers - dictionary['head']
+        self.headers = dictionary['head']
         self.body = dictionary['body']
         self.messages = dictionary['messages']
         self.update()
