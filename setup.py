@@ -5,7 +5,7 @@ with open("LICENSE", "r") as fg:
     license_val = fg.read()
 setup(
     name="prompthandler",
-    version="0.0.1",
+    version="0.0.2",
     author="prasannan-robots",
     description="Token Management system for chatgpt and more. Keeps your prompt under token with summary support",
     install_requires=["openai","tiktoken"],
