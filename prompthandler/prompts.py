@@ -32,7 +32,7 @@ class PromptHandler(openai_chat_gpt):
         Get a dict of head,body and messages
         """
         self.update_messages()
-        return {'head':self.headers,'body':self.body,'messages':self.messages}
+        return {'head':self.headers,'body':self.body}
         
     def load(self,dictionary):
         """
@@ -40,7 +40,6 @@ class PromptHandler(openai_chat_gpt):
         """
         self.headers = dictionary['head']
         self.body = dictionary['body']
-        self.messages = dictionary['messages']
         self.update()
 
     def get_completion(self, message='', update_history=True, temperature=None):
