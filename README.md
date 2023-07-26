@@ -17,6 +17,7 @@ model.add_user("Hi")
 model.chat() # you can chat with it in terminal
 ```
 For more examples see [examples.ipynb](https://github.com/prasannan-robots/Prompt-handler/blob/main/examples.ipynb)
+Example Projects [my silicon version](https://prasannanrobots.pythonanywhere.com/) [github_repo](https://github.com/prasannan-robots/prasannan-robots.github.io)
 ## Behind the scenes
 
 ### models.py
